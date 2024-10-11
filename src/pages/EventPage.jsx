@@ -8,7 +8,7 @@ import { DeleteButton } from "../components/DeleteEvent";
 // data ingeladen
 export const loader = async ({ params }) => {
   const event = await fetch(
-    `hhttps://my-json-server.typicode.com/Tolga0342/online-data-project/events/${params.eventId}`
+    `https://my-json-server.typicode.com/Tolga0342/online-data-project/events/${params.eventId}`
   );
   const categories = await fetch(
     `https://my-json-server.typicode.com/Tolga0342/online-data-project/categories`
